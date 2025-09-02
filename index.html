@@ -11,6 +11,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/project.css" />
     <meta
       name="keywords"
       content="travel-blog, Southern Europe, North Africa, Middle East, culture, traditions, landmarks, attractions history."
@@ -22,7 +23,7 @@
     ></script>
   </head>
   <body>
-    <div class="hero">
+    <nav>
       <ul>
         <li class="nav-item">
           <a class="nav-link" href="./index.html">Home</a>
@@ -40,6 +41,8 @@
           <a class="nav-link" href="./help.html">Help</a>
         </li>
       </ul>
+    </nav>
+    <header>
       <div class="container text-center">
         <h1 class="display-4">The Mediterranean Project</h1>
         <p class="lead">
@@ -48,6 +51,12 @@
           destinations, landmarks and attractions by yours truly.
         </p>
       </div>
-    </div>
+    </header>
+    <input
+      type="search"
+      id="destination-search"
+      placeholder="Search destinations..."
+    />
+    <input type="button" id="search-button" value="search" />
   </body>
 </html>
