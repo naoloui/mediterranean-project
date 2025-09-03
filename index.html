@@ -41,7 +41,13 @@
           <a class="nav-link" href="./help.html">Help</a>
         </li>
       </ul>
+      <div class="flex-item-right">
+        <a href="./login.html" class="btn btn-primary">Login</a>
+        <a href="./signup.html" class="btn btn-secondary">Sign up</a>
+        <a href="./language.html" class="btn btn-secondary">Language</a>
+      </div>
     </nav>
+
     <header>
       <div class="container text-center">
         <h1 class="display-4">The Mediterranean Project</h1>
@@ -52,11 +58,14 @@
         </p>
       </div>
     </header>
-    <input
-      type="search"
-      id="destination-search"
-      placeholder="Search destinations..."
-    />
-    <input type="button" id="search-button" value="search" />
+    <form>
+      <input
+        type="text"
+        id="destination-search"
+        placeholder="Search destinations..."
+        class="search-input"
+      />
+      <button type="submit" value="Submit">Search</button>
+    </form>
   </body>
 </html>
