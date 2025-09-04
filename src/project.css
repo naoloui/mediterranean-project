@@ -26,6 +26,7 @@ header {
   text-align: center;
   font-style: normal;
   padding: 200px 0;
+  margin-top: 5px;
 }
 
 nav {
@@ -37,16 +38,17 @@ nav ul {
   background-color: rgb(228, 236, 195);
   color: #333;
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 40px;
   margin: 0;
   padding: 0;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 nav li {
+  text-align: center;
   list-style: none;
   font-size: 14px;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
@@ -73,6 +75,28 @@ nav .flex-item-right {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
     "Liberation Sans", Arial, sans-serif;
   padding: 0 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  font-size: 14px;
+  background-color: #c7b793;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+    "Liberation Sans", Arial, sans-serif;
+  padding: 0 20px;
+  background-color: #c7b793;
 }
 
 form {
@@ -109,6 +133,16 @@ button {
   padding: 10px;
   justify-content: center;
   border-radius: 12px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.container-about {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #c7b793;
 }
 
 @media (max-width: 900px) {
