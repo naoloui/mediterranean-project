@@ -77,6 +77,53 @@ nav .flex-item-right {
   padding: 0 20px;
 }
 
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
 footer {
   text-align: center;
   padding: 10px;
@@ -145,6 +192,48 @@ button {
   background-color: #c7b793;
 }
 
+.box {
+  border: 2px solid #333;
+  border-radius: 10px;
+  border: none;
+  padding: 80px 80px;
+  margin: 60px 60px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.box {
+  border: 2px solid #333;
+  border-radius: 10px;
+  border: none;
+  padding: 80px 80px;
+  margin: 60px 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.item-portugal {
+  border: 2px solid #333;
+  border-radius: 10px;
+  border: none;
+  padding: 80px 80px;
+  margin: 60px 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../images/portugal-wallpaper.webp");
+  background-size: cover;
+  background-position: center;
+}
+.country-grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
 @media (max-width: 900px) {
   nav ul {
     flex-direction: column;
@@ -155,5 +244,10 @@ button {
     margin: 0;
     margin-top: 10px;
     justify-content: center;
+  }
+
+  .index-images {
+    display: block;
+    flex-direction: row;
   }
 }
