@@ -160,41 +160,9 @@ button.travel-with-us {
   background-color: #c7b793;
 }
 
-.box {
-  border: 2px solid #333;
-  border-radius: 10px;
-  border: none;
-  padding: 80px 80px;
-  margin: 60px 60px;
-  background-color: white;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.item-portugal {
-  border: 2px solid #333;
-  border-radius: 10px;
-  border: none;
-  padding: 80px 80px;
-  margin: 60px 60px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-image: url("../images/portugal-wallpaper.webp");
-  background-size: cover;
-  background-position: center;
-}
-.country-grid {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
+.travel-card {
+  position: relative;
+  border-radius: 15px;
 }
 
 @media (max-width: 900px) {
