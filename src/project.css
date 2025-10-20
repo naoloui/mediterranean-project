@@ -63,17 +63,6 @@ nav a {
   color: #333;
 }
 
-dropdown {
-  margin-left: auto;
-  display: flex;
-  font-size: 14px;
-  justify-content: right;
-  margin-right: 20px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
-    "Liberation Sans", Arial, sans-serif;
-}
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
   display: block;
@@ -135,6 +124,12 @@ button.travel-with-us {
   border: none;
   color: #333;
   background-color: white;
+  text-decoration: none;
+}
+
+button.travel-with-us:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 #main-container {
