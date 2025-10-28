@@ -124,7 +124,6 @@ button.travel-with-us {
   border: none;
   color: #333;
   background-color: white;
-  text-decoration: none;
 }
 
 button.travel-with-us:hover {
@@ -133,16 +132,30 @@ button.travel-with-us:hover {
 }
 
 #main-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   margin-top: 20px;
   background-color: white;
 }
 
+#row1 #row2,
+#row3,
+#row4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 figure:hover {
   transform: scale(1.05);
   transition: transform 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
 }
 
 .socials-link {
