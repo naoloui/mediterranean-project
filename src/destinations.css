@@ -12,18 +12,45 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.hero#spain-hero {
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/flamenco.jpg");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 h2 {
-  font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
-    "Liberation Sans", Arial, sans-serif;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 h5 {
-  font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
-    "Liberation Sans", Arial, sans-serif;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  text-align: center;
+}
+
+.grid-3-columns {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
