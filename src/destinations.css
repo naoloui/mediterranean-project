@@ -1,4 +1,4 @@
-.hero#portugal-hero {
+.hero {
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -7,22 +7,54 @@
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+#portugal-hero {
+  background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/portugal-wallpaper.webp");
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.hero#spain-hero {
-  background-size: cover;
-  background-position: center;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
+#spain-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/flamenco.jpg");
+    url("../images/patio-cordobes.webp");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#morocco-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/moroccan-souk.jpg");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#italy-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/fontana-di-trevi.jpg");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#france-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/lavender-field.jpeg");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#croatia-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/waterfalls-croatia.jpg");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#greece-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/acropolis.webp");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#turkiye-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/capadoccia.jpg");
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
