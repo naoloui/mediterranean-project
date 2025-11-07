@@ -81,6 +81,13 @@ h5 {
   margin-top: 20px;
 }
 
+.grid-2-columns {
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
 .card-image {
   width: 100%;
   height: auto;
