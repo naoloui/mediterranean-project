@@ -92,4 +92,23 @@ h5 {
   width: 100%;
   height: auto;
   border-radius: 0 0 0.5rem 0.5rem;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #fff;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
 }
